@@ -1,0 +1,11 @@
+# Python dependencies for the MovieLens 100k pipeline (driver side).
+# The Spark↔Cassandra and Spark↔Mongo JARs are resolved at runtime via
+# spark.jars.packages, so they are NOT listed here.
+
+pyspark==3.5.1          # ships its own Apache Spark 3.5 distribution
+matplotlib>=3.8         # top-10 bar chart, favourite-genre distribution
+happybase==1.2.0        # HBase Thrift client (Extension A)
+pymongo>=4.0            # MongoDB client (Extension B)
+cassandra-driver>=3.28  # native CQL driver (keyspace DDL / readiness; cqlsh fallback)
+jupyter                 # notebook runtime
+notebook
