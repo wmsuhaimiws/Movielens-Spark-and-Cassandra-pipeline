@@ -1,6 +1,6 @@
 # MovieLens 100k — Big Data Pipeline (Spark · Cassandra · HBase · MongoDB)
 
-An end-to-end analytical data-engineering pipeline on the
+An end to end analytical data-engineering pipeline on the
 [MovieLens 100k](https://grouplens.org/datasets/movielens/) dataset, built on
 **HDFS → Apache Spark (PySpark) → Apache Cassandra**, with read-back validation and an
 optional **HBase + MongoDB** replication. The same pipeline is delivered in two runnable forms:
